@@ -9,7 +9,7 @@ public class HitungArsir {
     Lingkaran lingkaran;
     Persegi persegi;
 
-    HitungArsir(Lingkaran lingkaran, Persegi persegi){
+    public HitungArsir(Lingkaran lingkaran, Persegi persegi){
         this.lingkaran = lingkaran;
         this.persegi = persegi;
     }
