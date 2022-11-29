@@ -13,7 +13,7 @@ public class Persegi implements BangunDatar {
 
     @Override
     public void tampilluas(){
-        
+        System.out.println("luas persegi: " + luas());
     }
 
     @Override
@@ -27,7 +27,7 @@ public class Persegi implements BangunDatar {
     }
 
     @Override
-    public int luas(){
+    public double luas(){
         return panjang * lebar;
     }
 }

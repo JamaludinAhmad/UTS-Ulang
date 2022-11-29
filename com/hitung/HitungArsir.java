@@ -14,7 +14,9 @@ public class HitungArsir {
         this.persegi = persegi;
     }
 
-    void tampilkanHasil(){
+    public void tampilkanHasil(){
+        lingkaran.tampilluas();
+        persegi.tampilluas();
         hasil = persegi.luas() - (lingkaran.luas() / 2);
         System.out.println("hasilnya adalah: " + hasil);
     }
